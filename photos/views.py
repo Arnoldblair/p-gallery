@@ -1,3 +1,4 @@
 from django.shortcuts import render
-
-# Create your views here.
+from django.http import HttpResponse, Http404# responsible for returning a response to a user
+import datetime as dt
+from .models import Image,Location,Photographer,Category
